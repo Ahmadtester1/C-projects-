@@ -9,7 +9,7 @@ bool gameover, walls;
 const int height = 20;
 const int width = 20;
 int snake_x,snake_y, fruit_x, fruit_y, score, speed;
-int tail_x[300], tail_y[300];
+int tail_x[400], tail_y[400];
 int tail;
 enum direction {stop=0, Left,Right,up,down};
 direction directi;
